@@ -1,0 +1,61 @@
+{
+  "name": "@falkor/falkor-eslint-config",
+  "version": "0.0.1",
+  "description": "Shared ESLint configuration module to be used with the Falkor Framework",
+  "author": {
+    "name": "Barnabas Bucsy",
+    "url": "https://github.com/theonethread"
+  },
+  "contributors": [
+    {
+      "name": "Barnabas Bucsy",
+      "url": "https://github.com/theonethread"
+    }
+  ],
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/theonethread/falkor-eslint-config/#readme",
+  "repository": "github:theonethread/falkor-eslint-config",
+  "bugs": "https://github.com/theonethread/falkor-eslint-config/issues",
+  "funding": [
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/falkor_framework"
+    },
+    {
+      "type": "individual",
+      "url": "https://www.linkedin.com/in/barnabas-bucsy"
+    }
+  ],
+  "keywords": [
+    "falkor",
+    "eslint ",
+    "config",
+    "eslintconfig"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "engineStrict": true,
+  "main": ".eslintrc.cjs",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.59.8",
+    "@typescript-eslint/parser": "5.59.8",
+    "eslint": "8.42.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "46.2.3"
+  },
+  "devDependencies": {
+    "@falkor/falkor-cspell-config": "0.0.1",
+    "@falkor/falkor-prettier-config": "0.0.1"
+  }
+}
