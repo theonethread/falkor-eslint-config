@@ -8,7 +8,7 @@ Shared ESLint configuration module to be used with the Falkor Framework.
 
 ### **Versioning and Branching Strategy**
 
-Release sources can be found on the `master` branch, this one always points to the latest tagged release. Previous sources of releases can be found using `git` version tags (or browsing GitHub releases). Released packages can be found on [npmjs](https://www.npmjs.com/package/@falkor/falkor-cspell-config "Visit").
+Release sources can be found on the `master` branch, this one always points to the latest tagged release. Previous sources of releases can be found using `git` version tags (or browsing GitHub releases). Released packages can be found on [npmjs](https://www.npmjs.com/package/@falkor/falkor-eslint-config "Visit").
 
 The repository's main branch is `develop` (due to technical reasons), this holds all developments that are already decided to be included in the next release. Usually this branch is ahead of `master` one patch version (but based on upcoming features to include this can become minor, or major), so prepared external links may yet be broken.
 
@@ -18,7 +18,7 @@ The `feature/*` branches usually hold ideas and POC code, these will only be mer
 
 ### **Free and Open Source**
 
-The latest sources can always be found on [GitHub](https://github.com/theonethread/falkor-cspell-config "Visit").
+The latest sources can always be found on [GitHub](https://github.com/theonethread/falkor-eslint-config "Visit").
 
 #### **Getting Involved**
 
@@ -26,6 +26,6 @@ We believe - and we hope you do too - that learning how to code, how to think, a
 
 #### **License**
 
-[MIT](https://github.com/theonethread/falkor-cspell-config/blob/master/license.txt "Open")
+[MIT](https://github.com/theonethread/falkor-eslint-config/blob/master/license.txt "Open")
 
 _©2020-2023 Barnabas Bucsy - All rights reserved._
