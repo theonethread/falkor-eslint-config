@@ -6,6 +6,19 @@ Shared ESLint configuration module to be used with the Falkor Framework.
 
 ## **Further Development**
 
+### **Linting**
+
+The project uses [`prettier`](https://www.npmjs.com/package/prettier "Visit") for code formatting and [`cspell`](https://www.npmjs.com/package/cspell "Visit") to avoid general typos in both sources and documentation - it is advised to install these packages as extensions in your IDE to prevent CI errors beforehand. To lint the project run:
+
+```
+$ npm run lint
+```
+
+> _**SEE:** [`.prettierrc.cjs`](https://github.com/theonethread/falkor-plugin-example/blob/develop/.prettierrc.cjs "Open") and [`cspell.config.cjs`](https://github.com/theonethread/falkor-plugin-example/blob/develop/cspell.config.cjs "Open") for further reference._
+
+- To fix formatting issues run `$ npx prettier --write <path-to-file>`. This will overwrite the file with the default formatting applied locally, so then you can review the changes in `git` and **ensure those did not affect production artifacts**.
+- To fix spelling errors run `$ npx cspell lint --wordsOnly --unique --gitignore --exclude .git ** .*` for details, and either make the fixes in the sources listed, add `cspell` favored comments, or extend the project-wide `cspell.config.cjs` accordingly.
+
 ### **Versioning and Branching Strategy**
 
 Release sources can be found on the `master` branch, this one always points to the latest tagged release. Previous sources of releases can be found using `git` version tags (or browsing GitHub releases). Released packages can be found on [npmjs](https://www.npmjs.com/package/@falkor/falkor-eslint-config "Visit").
